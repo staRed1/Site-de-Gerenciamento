@@ -1,9 +1,18 @@
-.img{
-    width: 50%;
-    height: auto;
+.ator{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
-body {
+.atores{
+    text-align: center;
+    width: 200px;
+}
+.cartas{
+    width: 100%;
+    height: 600px;
+}
+body{
     background-color: #0f0f16;
+    font-family: sans-serif;
     color: white;
-    font-family: 'Helvetica Neue', sans-serif;
 }
