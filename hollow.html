@@ -3,161 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/style.css">
   <link rel="icon" type="image/png" href="./images/Logo.jpg">
-  <title>Detalhes do Musical</title>
+  <title>Hollow Knight - Detalhes</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#0f0f16] text-white font-sans">
+
   <!-- Navbar -->
-  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-800 bg-[#620302]">
-    <div class="flex items-center gap-3">
-      <a href="index.html">
-        <img src="./images/Logo.jpg" alt="Musical Guide Logo" class="w-auto, h-20">
-      </a>
-    </div>
+  <header class="flex items-center justify-between px-6 py-4 bg-[#1f1f1f] border-b border-gray-800">
+    <a href="index.html">
+      <img src="./images/Logo.jpg" alt="Logo do site" class="w-32 h-auto">
+    </a>
     <nav class="hidden md:flex gap-6 text-gray-300">
-      <a href="index.html" class="hover:text-white">Home</a>
-      <a href="#" class="hover:text-white">Musicais</a>
-      <a href="#" class="hover:text-white">Sobre</a>
-      <a href="#" class="hover:text-white">Contato</a>
+      <a href="index.html" class="hover:text-orange-500">Home</a>
+      <a href="#" class="hover:text-orange-500">Jogos</a>
+      <a href="#" class="hover:text-orange-500">Sobre</a>
+      <a href="#" class="hover:text-orange-500">Contato</a>
+    </nav>
   </header>
 
-  <!-- Capa do Musical -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <div class="grid md:grid-cols-3 gap-8 items-center">
-      <img src="https://cdn.awsli.com.br/800x800/229/229111/produto/346762626/1-tgg1vtswva.png" alt="Capa do Musical" class="rounded-xl shadow-lg w-full">
-      <div class="md:col-span-2">
-        <h1 class="text-4xl font-bold mb-4">Heathers the Musical</h1>
-      
-      <div class="md:col-span-2">
-        <h1 class="text-4xl font-bold mb-4">Nome do Musical</h1>
-        <p class="text-gray-400 text-lg mb-6">
-          Uma breve descrição introdutória do musical. Pode incluir ano de estreia, principais prêmios ou uma frase de impacto.
-        </p>
-        <button class="px-6 py-3 bg-yellow-400 text-black rounded-xl font-semibold">Assistir Agora</button>
-      </div>
+  <!-- Capa e descrição -->
+  <section class="px-6 py-10 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+    <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51" 
+         alt="Hollow Knight" class="rounded-xl shadow-lg w-full">
+    <div class="md:col-span-2">
+      <h1 class="text-4xl font-bold mb-4 text-orange-500">Hollow Knight</h1>
+      <p class="text-gray-400 text-lg mb-6">
+        Hollow Knight é um jogo metroidvania desafiador, ambientado no reino subterrâneo de Hallownest. Você controla um pequeno cavaleiro em busca de respostas, enfrentando inimigos e chefes em um mundo sombrio cheio de segredos e mistérios.
+      </p>
+      <button class="btn px-6 py-3 bg-orange-500 text-black rounded-xl font-semibold">Jogar Agora</button>
     </div>
   </section>
 
-  <!-- Galeria de Imagens -->
+  <!-- Galeria de imagens -->
   <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-6">Galeria de Imagens</h2>
+    <h2 class="text-2xl font-bold mb-6 text-orange-500">Galeria</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/4/5/b/0/45b08626f3d362aa7ad790e34bc8dd23.jpg" class="galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm8DYOG0v_EHcwTkguCKtXGLxIB__eWkp1vwWINXYwZtU3Za9LJ2WXd0SVLagwxlx4kdo&usqp=CAU" class="galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglhbhiHTiU4NkU_D4DWZ5gIVUpwFaMcbzNsrov1PZQKXwNuD6FuufTfOh6Xf8379tKM4&usqp=CAU" class="galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHj5KN2XyMX47B2fJ9z5xw7gUmwFpayG9u33c_JTK5T7aZRKV7ThGs7dmlMYzkXpnYpV0&usqp=CAU" class="galeria">
-      <img src="https://picsum.photos/300/200?random=2" class="galeria">
-      <img src="https://picsum.photos/300/200?random=3" class="galeria">
-      <img src="https://picsum.photos/300/200?random=4" class="galeria">
-      <img src="https://picsum.photos/300/200?random=5" class="galeria">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_1.jpg" class="galeria">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_2.jpg" class="galeria">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_3.jpg" class="galeria">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_4.jpg" class="galeria">
     </div>
   </section>
 
-  <!-- Sinopse -->
+  <!-- Personagens -->
   <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-4">Sinopse</h2>
-    <p class="text-gray-400 leading-relaxed">
-        Heathes é um musical de comédia sombria onde conta a história de Veronica Sawyer, uma adolecente que resolve se juntar ao grupo das populares Heathers, Heather Chandler, Heather Duke e Heather McNamara que resolveram a manter por perto graças ao seu talento para falsificação de assinaturas. Tudo parece estar indo bem para Veronica até ela conhecer Jason Dean (JD) e juntos sem querer, após certos acontecimentos acabam matando Heather Chandler e ele a convence a usar seu dom para fingir o suicidio da garota, mas acaba com todos da escola entrando em crise pois, se até a garota mais perfeita fez isso, quem somos nós?
-    </p>
-  </section>
-
-  <!-- Lista de Músicas -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-4">Lista de Músicas</h2>
-    <ul class="list-disc list-inside text-gray-300 space-y-2">
-        <li>Beautiful</li>
-        <li>Candy Store</li>
-        <li>Fight for Me</li>
-        <li>Freeze Your Brain</li>
-        <li>Big Fun</li>
-        <li>Dead Girl Walking</li>
-        <li>The Me Inside of Me</li>
-        <li>Blue</li>
-        <li>Blue (reprise)</li>
-        <li>Our Love Is God</li>
-        <li>Prom or Hell?</li>
-        <li>My Dead Gay Son</li>
-        <li>Seventeen</li>
-        <li>Shine a Light</li>
-        <li>Lifeboat</li>
-        <li>Shine a Light (Reprise)</li>
-        <li>Hey Yo, Westerburg</li>
-        <li>Kindergarten Boyfriend</li>
-        <li>Yo Girl</li>
-        <li>Meant to Be Yours</li>
-        <li>Dead Girl Walking (Reprise)</li>
-        <li>I Am Damaged</li>
-        <li>Seventeen (Reprise)</li>    
-    </ul>
-  </section>
-
-  <!-- Elenco Principal -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-6">Elenco Principal</h2>
+    <h2 class="text-2xl font-bold mb-6 text-orange-500">Personagens Principais</h2>
     <div class="grid md:grid-cols-4 gap-6">
-      <div class="atores">
-        <img src="https://hips.hearstapps.com/hmg-prod/images/hamilton-true-story-1593699546.jpg?crop=0.493xw:0.986xh;0,0.0136xh&resize=1200:*" class="ator">
-        <p class="font-semibold">Lin-Manuel Miranda</p>
-        <p class="text-gray-400 text-sm">Alexander Hamilton</p> 
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+        <img src="https://preview.redd.it/what-are-your-favorites-hollow-knight-characters-designs-v0-o0spjsohdcib1.jpg?width=640&crop=smart&auto=webp&s=f7579d548de12ff586c71a108dd75f74bcb3e538" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
+        <p class="font-semibold mt-2 text-center">O Cavaleiro</p>
+        <p class="text-gray-400 text-sm text-center">Protagonista</p>
       </div>
-      <div class="atores">
-        <img src="https://nekorandom.com/wp-content/uploads/2021/05/9cc4c-photostudio_1594552954425.jpg?w=620" class="ator">
-        <p class="font-semibold">Leslie Odom Jr.</p>
-        <p class="text-gray-400 text-sm">Aaron Burr</p>
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+        <img src="https://i1.sndcdn.com/artworks-eNeg9p6MWCcE42NO-KEoSqg-t500x500.png" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
+        <p class="font-semibold mt-2 text-center">Hornet</p>
+        <p class="text-gray-400 text-sm text-center">Aliada</p>
       </div>
-      <div class="atores">
-        <img src="https://i.pinimg.com/originals/fb/cb/b7/fbcbb76e09a6614666ff12f16436bd23.jpg" class="ator">
-        <p class="font-semibold">Phillipa Soo</p>
-        <p class="text-gray-400 text-sm">Eliza Hamilton</p> 
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkL4hI-yNt0C5CEw4HgsLxZa9HfbhJ94Ywdg&s" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
+        <p class="font-semibold mt-2 text-center">O Cavaleiro Vazio</p>
+        <p class="text-gray-400 text-sm text-center">Receptáculo Puro</p>
       </div>
-      <div class="atores">
-        <img src="https://www.ew.com/thmb/gqbBqqdYCOr-NDJPqOMi5BBm4Ug=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/renee-elise-goldsberry-65be52bbbd9544a7b46784dc0c58c748.jpg" class="ator">
-        <p class="font-semibold">Renée Elise Goldsberry</p>
-        <p class="text-gray-400 text-sm">Angelica Schuyler</p>
-      </div>
-        <div class="atores">
-        <img src="https://i.pinimg.com/originals/20/27/98/20279851916b608fd4adfa3cb1c40337.jpg" class="ator">
-        <p class="font-semibold">Daveed Diggs</p>
-        <p class="text-gray-400 text-sm">Marquis de Lafayette e Thomas Jefferson</p>
-      </div>
-        <div class="atores">
-        <img src="https://picsum.photos/200/200?random=6" class="ator">
-        <p class="font-semibold">Ator 1</p>
-        <p class="text-gray-400 text-sm">Personagem A</p>
-      </div>
-      <div class="atores">
-        <img src="https://picsum.photos/200/200?random=7" class="ator">
-        <p class="font-semibold">Ator 2</p>
-        <p class="text-gray-400 text-sm">Personagem B</p>
-      </div>
-      <div class="atores">
-        <img src="https://picsum.photos/200/200?random=8" class="ator">
-        <p class="font-semibold">Ator 3</p>
-        <p class="text-gray-400 text-sm">Personagem C</p>
-      </div>
-      <div class="atores">
-        <img src="https://picsum.photos/200/200?random=9" class="ator">
-        <p class="font-semibold">Ator 4</p>
-        <p class="text-gray-400 text-sm">Personagem D</p>
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+        <img src="https://i.redd.it/wpfi4d6qdd3a1.jpg" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
+        <p class="font-semibold mt-2 text-center">Cornifer</p>
+        <p class="text-gray-400 text-sm text-center">Vendedor de Mapas</p>
       </div>
     </div>
   </section>
 
-  <!-- Onde Assistir -->
+  <!-- Onde Jogar -->
   <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-4">Onde Assistir</h2>
+    <h2 class="text-2xl font-bold mb-4 text-orange-500">Onde Jogar</h2>
     <div class="flex flex-wrap gap-4">
-      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Netflix</a>
-      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Disney+</a>
-      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Amazon Prime</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Steam</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Nintendo Switch</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">GOG</a>
     </div>
   </section>
 
   <!-- Rodapé -->
   <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center">
-    © 2025 Musical. Todos os direitos reservados.
+    © 2025 Hollow Knight. Todos os direitos reservados.
   </footer>
+
 </body>
 </html>
