@@ -2,153 +2,65 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <script type="stylesheet" href="./src/css/index.css"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Info Games</title>
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="icon" type="image/png" href="./images/Logo.jpg">
+  <title>Musical</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  
 </head>
-<body class="bg-[#0a0a0f] text-gray-200 font-sans">
-
+<body class="bg-[#0f0f16] text-white font-sans">
   <!-- Navbar -->
-  <header class="flex items-center justify-between px-6 py-4 bg-[#12121a] border-b border-gray-800">
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-800 bg-[#620302]">
     <div class="flex items-center gap-3">
-      <img src="https://cdn-icons-png.flaticon.com/512/924/924915.png" alt="Logo" class="w-10 h-10">
-      <h1 class="text-xl font-bold text-white">InfoGames</h1>
+      <a href="index.html">
+        <img src="./images/Logo.jpg" alt="Musical Guide Logo" class="w-auto, h-20">
+      </a>
     </div>
-    <nav class="hidden md:flex gap-6 text-gray-400">
-      <a href="#" class="hover:text-white">Home</a>
-      <a href="#" class="hover:text-white">Jogos</a>
-      <a href="#" class="hover:text-white">Notícias</a>
+    <nav class="hidden md:flex gap-6 text-gray-300">
+      <a href="#" class="hover:text-white">Musicais</a>
+      <a href="#" class="hover:text-white">Sobre</a>
       <a href="#" class="hover:text-white">Contato</a>
+      <a href="#" class="hover:text-white">Ajuda</a>
     </nav>
   </header>
-
-  <!-- Hero Section -->
-  <section class="px-6 py-16 text-center md:text-left md:flex md:items-center md:justify-between bg-gradient-to-r from-purple-900 via-black to-indigo-900">
+  <section class="px-6 py-16 text-center md:text-left md:flex md:items-center md:justify-between">
     <div class="max-w-2xl">
       <h2 class="text-4xl md:text-6xl font-bold leading-tight">
-        Descubra <span class="text-purple-400">tudo sobre seus jogos</span> favoritos em um só lugar!
+        <span class="text-red-500">Seus musicais favoritos</span> <span class="text-yellow-400">em um clique</span>
       </h2>
-      <p class="mt-4 text-gray-300 text-lg">
-        Reviews, informações, curiosidades e muito mais sobre os games que você ama.
+      <p class="mt-4 text-gray-400 text-lg">
+        Descubra experiências únicas em musicais. Encontre os melhores espetáculos e mergulhe no universo do teatro musical.n
       </p>
-      <button class="mt-6 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-xl shadow-lg transition">
-        Explorar Agora
-      </button>
     </div>
     <div class="mt-10 md:mt-0">
-      <img src="https://cdn-icons-png.flaticon.com/512/3819/3819449.png" alt="Controller" class="w-64 mx-auto drop-shadow-lg">
+      <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" alt="Ícone Musical" class="w-64 mx-auto">
     </div>
   </section>
 
-  <!-- Cards de Jogos -->
- <section class="px-6 py-10">
- <section class="px-6 py-10">
-  <h3 class="text-2xl font-bold mb-6 text-white">Onde assistir musicais</h3>
-  <div class="grid gap-6 md:grid-cols-3">
-
-    <!-- Card 1 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202305/2308/06b354c8015b3c71e54f43aa883aab4641285d4a91734681.png" 
-           alt="Musical 1" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Lies of P</h4>
-      <a href="liesOfP.html" class="text-gray-400 text-sm hover:text-white">Informations</a>
+  <section class="px-6 py-10">
+    <h3 class="text-2xl font-bold mb-6">Onde assistir musicais</h3>
+    <div class="grid gap-6 md:grid-cols-3">
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg">
+        <img src="https://m.media-amazon.com/images/M/MV5BYTc3MWIyMzAtMTZmNC00YmNjLWIyZTgtMmU4NjZkYzZkOThkXkEyXkFqcGc@._V1_.jpg" alt="Musical 1" class="cartas">
+        <h4 class="font-semibold text-lg">Hamilton: An American Musical</h4>
+        <a href="hamilton.html" class="text-gray-400 text-sm">Informations</a>
+      </div>
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/6/61/Heathers_The_Musical_Off-Broadway_Poster.jpg" alt="Musical 2" class="cartas">
+        <h4 class="font-semibold text-lg">Heathers</h4>
+        <a href="heathers.html" class="text-gray-400 text-sm">Informations</a>
+      </div>
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg">
+        <img src="https://assets.mycast.io/posters/epic-the-musical-fan-casting-poster-572900-large.jpg?1746553664" alt="Musical 3" class="cartas">
+        <h4 class="font-semibold text-lg">Epic: The Musical</h4>
+        <a href="epic.html" class="text-gray-400 text-sm">Informations</a>
+      </div>
     </div>
-
-    <!-- Card 2 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://cdn.awsli.com.br/800x800/229/229111/produto/346762626/1-tgg1vtswva.png" 
-           alt="Musical 2" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Hollow Knight</h4>
-      <a href="hollow.html" class="text-gray-400 text-sm hover:text-white">Informations</a>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://howlongtobeat.com/games/10035_The_Legend_of_Zelda_Ocarina_of_Time.png" 
-           alt="Musical 3" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">The Legend of Zelda: Ocarina of Time</h4>
-      <a href="zeldinha.html" class="text-gray-400 text-sm hover:text-white">Informations</a>
-    </div>
-
-    <!-- Card 4 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://m.media-amazon.com/images/I/B1hWJ5KN6OL._SX412_QL65_FMwebp_.png" 
-           alt="Musical 4" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Hollow Knight: Silksong</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 5 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://cdn.awsli.com.br/800x800/53/53761/produto/29815822/4677d91514.jpg" 
-           alt="Musical 5" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">MARVEL'S SPIDER-MAN</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 6 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://m.media-amazon.com/images/M/MV5BMjUxNWZhMjEtM2MyZS00NjZmLWJjZWUtYTNhYTQ0ZjUzMjQyXkEyXkFqcGc@._V1_.jpg" 
-           alt="Musical 6" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Sally Face</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 7 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png" 
-           alt="Musical 7" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">The Witcher 3</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 8 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://seekkey.store/wp-content/uploads/2025/03/1000073058.png" 
-           alt="Musical 8" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Dark Souls III</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 9 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://m.media-amazon.com/images/M/MV5BZGQxMjYyOTUtNjYyMC00NzdmLWI4YmYtMDhiODU3Njc5ZDJkXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg" 
-           alt="Musical 9" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Elder Ring</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 10 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5TULM-mg1EwcktJ4KglQnx1DsDJ1eV-U_5w&s" 
-           alt="Musical 10" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Deltarune</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 11 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg" 
-           alt="Musical 11" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Portal</h4>
-      <p class="text-gray-400 text-sm">Informations</p>
-    </div>
-
-    <!-- Card 12 -->
-    <div class="bg-gray-900 p-4 rounded-xl shadow-lg h-80 flex flex-col justify-between hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-      <img src="https://e.snmc.io/lk/f/x/953a27102e297c2f8138f41b4d6713de/11687943" 
-           alt="Musical 12" class="w-full h-48 object-cover rounded-lg mb-3">
-      <h4 class="font-semibold text-lg text-yellow-400">Mouthwashing</h4>
-      <p class="text-gray-400 text-sm">Sice Heligray</p>
-    </div>
-
-  </div>
-</section>>
-
-  <!-- Footer -->
-  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center bg-[#12121a]">
-    © 2025 InfoGames. Todos os direitos reservados.
+  </section>
+  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center">
+    © 2025 Musical. Todos os direitos reservados.
   </footer>
-
 </body>
 </html>
