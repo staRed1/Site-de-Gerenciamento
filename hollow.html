@@ -7,43 +7,46 @@
   <link rel="icon" type="image/png" href="./images/Logo.jpg">
   <title>Hollow Knight - Detalhes</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bg-[#0f0f16] text-white font-sans">
 
   <!-- Navbar -->
-  <header class="flex items-center justify-between px-6 py-4 bg-[#1f1f1f] border-b border-gray-800">
-    <a href="index.html">
-      <img src="./images/Logo.jpg" alt="Logo do site" class="w-32 h-auto">
+  <header class="flex items-center justify-between px-6 py-4 bg-[#1f1f1f] border-b border-gray-800 animate__animated animate__fadeInDown">
+    <a href="index.html" class="flex items-center gap-2">
+        <img src="./images/image.png" alt="Logo do site" class="w-16 sm:w-20 md:w-32 h-auto rounded-full shadow-lg animate__animated animate__pulse animate__infinite animate__slower">
+        <span class="text-orange-500 font-bold text-2xl hidden sm:block">INFO-FAVJOGOS</span>
     </a>
     <nav class="hidden md:flex gap-6 text-gray-300">
-      <a href="index.html" class="hover:text-orange-500">Home</a>
-      <a href="#" class="hover:text-orange-500">Jogos</a>
-      <a href="#" class="hover:text-orange-500">Sobre</a>
-      <a href="#" class="hover:text-orange-500">Contato</a>
+      <a href="index.html" class="hover:text-orange-500 transition-colors">Home</a>
+      <a href="#" class="hover:text-orange-500 transition-colors">Jogos</a>
+      <a href="#" class="hover:text-orange-500 transition-colors">Sobre</a>
+      <a href="#" class="hover:text-orange-500 transition-colors">Contato</a>
     </nav>
   </header>
 
   <!-- Capa e descrição -->
-  <section class="px-6 py-10 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+  <section class="px-6 py-10 max-w-6xl mx-auto grid md:grid-cols-3 gap-8 animate__animated animate__fadeInUp">
     <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51" 
-         alt="Hollow Knight" class="rounded-xl shadow-lg w-full">
+         alt="Hollow Knight" class="rounded-xl shadow-lg w-full hover:scale-105 transition-transform duration-500">
     <div class="md:col-span-2">
-      <h1 class="text-4xl font-bold mb-4 text-orange-500">Hollow Knight</h1>
-      <p class="text-gray-400 text-lg mb-6">
+      <h1 class="text-4xl font-bold mb-4 text-orange-500 animate__animated animate__fadeInLeft">Hollow Knight</h1>
+      <p class="text-gray-400 text-lg mb-6 animate__animated animate__fadeInRight">
         Hollow Knight é um jogo metroidvania desafiador, ambientado no reino subterrâneo de Hallownest. Você controla um pequeno cavaleiro em busca de respostas, enfrentando inimigos e chefes em um mundo sombrio cheio de segredos e mistérios.
       </p>
-      <button class="btn px-6 py-3 bg-orange-500 text-black rounded-xl font-semibold">Jogar Agora</button>
+
     </div>
   </section>
 
   <!-- Galeria de imagens -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
+  <section class="px-6 py-10 max-w-6xl mx-auto animate__animated animate__fadeIn">
     <h2 class="text-2xl font-bold mb-6 text-orange-500">Galeria</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_1.jpg" class="galeria">
-      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_2.jpg" class="galeria">
-      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_3.jpg" class="galeria">
-      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/ss_4.jpg" class="galeria">
+      <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24694314/hollowknight.jpg" class="galeria hover:scale-105 transition-transform duration-500">
+      <img src="https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/3d24e1c8-d368-4b05-bb5f-00888e238d12/Grimm.jpg" class="galeria hover:scale-105 transition-transform duration-500">
+      <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/05/Hollow-Knight-Pure-Vessel-Fight.jpg?q=50&fit=crop&w=825&dpr=1.5" class="galeria hover:scale-105 transition-transform duration-500">
+      <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/05/Hollow-Knight-boss-fight.jpg?q=50&fit=crop&w=825&dpr=1.5" class="galeria hover:scale-105 transition-transform duration-500">
     </div>
   </section>
 
@@ -51,22 +54,22 @@
   <section class="px-6 py-10 max-w-6xl mx-auto">
     <h2 class="text-2xl font-bold mb-6 text-orange-500">Personagens Principais</h2>
     <div class="grid md:grid-cols-4 gap-6">
-      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition-transform duration-500 animate__animated animate__fadeInUp">
         <img src="https://preview.redd.it/what-are-your-favorites-hollow-knight-characters-designs-v0-o0spjsohdcib1.jpg?width=640&crop=smart&auto=webp&s=f7579d548de12ff586c71a108dd75f74bcb3e538" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">O Cavaleiro</p>
         <p class="text-gray-400 text-sm text-center">Protagonista</p>
       </div>
-      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition-transform duration-500 animate__animated animate__fadeInUp animate__delay-1s">
         <img src="https://i1.sndcdn.com/artworks-eNeg9p6MWCcE42NO-KEoSqg-t500x500.png" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">Hornet</p>
         <p class="text-gray-400 text-sm text-center">Aliada</p>
       </div>
-      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition-transform duration-500 animate__animated animate__fadeInUp animate__delay-2s">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkL4hI-yNt0C5CEw4HgsLxZa9HfbhJ94Ywdg&s" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">O Cavaleiro Vazio</p>
         <p class="text-gray-400 text-sm text-center">Receptáculo Puro</p>
       </div>
-      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center">
+      <div class="bg-gray-900 p-4 rounded-xl shadow-lg flex flex-col items-center hover:scale-105 transition-transform duration-500 animate__animated animate__fadeInUp animate__delay-3s">
         <img src="https://i.redd.it/wpfi4d6qdd3a1.jpg" class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">Cornifer</p>
         <p class="text-gray-400 text-sm text-center">Vendedor de Mapas</p>
@@ -75,17 +78,17 @@
   </section>
 
   <!-- Onde Jogar -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
+  <section class="px-6 py-10 max-w-6xl mx-auto animate__animated animate__fadeInUp">
     <h2 class="text-2xl font-bold mb-4 text-orange-500">Onde Jogar</h2>
     <div class="flex flex-wrap gap-4">
-      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Steam</a>
-      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Nintendo Switch</a>
-      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">GOG</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-orange-500 transition-colors">Steam</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-orange-500 transition-colors">Nintendo Switch</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-orange-500 transition-colors">GOG</a>
     </div>
   </section>
 
   <!-- Rodapé -->
-  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center">
+  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center animate__animated animate__fadeInUp">
     © 2025 Hollow Knight. Todos os direitos reservados.
   </footer>
 

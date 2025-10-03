@@ -3,119 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/index.css">
+  <title>The Legend of Zelda: Ocarina of Time - Detalhes</title>
   <link rel="icon" type="image/png" href="./images/Logo.jpg">
-  <title>Heathers</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bg-[#0f0f16] text-white font-sans">
+
   <!-- Navbar -->
-  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-800 bg-[#620302]">
-    <div class="flex items-center gap-3">
-      <a href="index.html">
-        <img src="./images/Logo.jpg" alt="Musical Guide Logo" class="w-auto, h-20">
-      </a>
-    </div>
+  <header class="flex items-center justify-between px-6 py-4 bg-[#1f1f1f] border-b border-gray-800 animate__animated animate__fadeInDown">
+    <a href="index.html">
+        <img src="./images/image.png" alt="Logo do site" class="w-16 sm:w-20 md:w-32 h-auto rounded-full shadow-lg">
+    </a>
     <nav class="hidden md:flex gap-6 text-gray-300">
-      <a href="index.html" class="hover:text-white">Home</a>
-      <a href="#" class="hover:text-white">Musicais</a>
-      <a href="#" class="hover:text-white">Sobre</a>
-      <a href="#" class="hover:text-white">Contato</a>
+      <a href="index.html" class="hover:text-yellow-500">Home</a>
+      <a href="#" class="hover:text-yellow-500">Jogos</a>
+      <a href="#" class="hover:text-yellow-500">Sobre</a>
+      <a href="#" class="hover:text-yellow-500">Contato</a>
+    </nav>
   </header>
 
-  <!-- Capa do Musical -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <div class="grid md:grid-cols-3 gap-8 items-center">
-      <img src="https://cdn.awsli.com.br/800x800/229/229111/produto/346762626/1-tgg1vtswva.png" alt="Capa do Musical" class="rounded-xl shadow-lg w-full">
-      <div class="md:col-span-2">
-        <h1 class="text-4xl font-bold mb-4">Heathers the Musical</h1>
-      
-      <div class="md:col-span-2">
-        <p class="text-gray-400 text-lg mb-6">
-          Bem-vinda à Westerberg High, onde a popularidade é uma questão de vida ou morte, e Veronica Sawyer é apenas mais uma das ninguéns sonhando com um dia melhor. Mas quando ela é inesperadamente acolhida pelas três belas e impossivelmente cruéis Heathers, seus sonhos de popularidade finalmente começam a se tornar realidade. Isso até que J.D., o misterioso adolescente rebelde, lhe ensina que ser um ninguém pode matar, mas ser alguém é um assassinato...
-        </p>
-      </div>
+  <!-- Capa e descrição -->
+  <section class="px-6 py-10 max-w-6xl mx-auto grid md:grid-cols-3 gap-8 items-center">
+    <img src="https://howlongtobeat.com/games/10035_The_Legend_of_Zelda_Ocarina_of_Time.png" 
+         alt="The Legend of Zelda: Ocarina of Time" 
+         class="rounded-xl shadow-lg w-full h-80 object-contain bg-gray-800 p-2 animate__animated animate__fadeInLeft">
+    <div class="md:col-span-2 flex flex-col justify-between animate__animated animate__fadeInRight">
+      <h1 class="text-4xl font-bold mb-4 text-yellow-400">The Legend of Zelda: Ocarina of Time</h1>
+      <p class="text-gray-400 text-lg mb-6">
+        Embarque na clássica aventura de Link em Hyrule! Viaje pelo tempo, explore masmorras, lute contra monstros e desvende os segredos da Ocarina do Tempo para derrotar Ganondorf e salvar o reino.
+      </p>
     </div>
   </section>
 
-  <!-- Galeria de Imagens -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-6">Galeria de Imagens</h2>
+  <!-- Galeria de imagens -->
+  <section class="px-6 py-10 max-w-6xl mx-auto animate__animated animate__fadeInUp">
+    <h2 class="text-2xl font-bold mb-6 text-yellow-400">Galeria</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/4/5/b/0/45b08626f3d362aa7ad790e34bc8dd23.jpg" class="galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm8DYOG0v_EHcwTkguCKtXGLxIB__eWkp1vwWINXYwZtU3Za9LJ2WXd0SVLagwxlx4kdo&usqp=CAU" class="galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglhbhiHTiU4NkU_D4DWZ5gIVUpwFaMcbzNsrov1PZQKXwNuD6FuufTfOh6Xf8379tKM4&usqp=CAU" class="galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHj5KN2XyMX47B2fJ9z5xw7gUmwFpayG9u33c_JTK5T7aZRKV7ThGs7dmlMYzkXpnYpV0&usqp=CAU" class="galeria">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN4Um5A0BqzeqYeIY7ql5fAdlTS75_4Ls7agwT7fiyg4DyYMQnRxyGBIFoG9ch" 
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transform transition duration-300 animate__animated animate__zoomIn" alt="Screenshot 1">
+      <img src="https://img.nsctotal.com.br/wp-content/uploads/2023/11/zelda-ocarina-of-time.jpg" 
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transform transition duration-300 animate__animated animate__zoomIn" alt="Screenshot 2">
+      <img src="https://s2-techtudo.glbimg.com/s1--4DtUxU3O_O0FqYkOECkgPN0=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/3/T/YdlI7fQT63yWJZoZGCxQ/2015-04-15-the-legend-of-zelda-ocarina-of-time-3d-epona-tutorial.jpg" 
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transform transition duration-300 animate__animated animate__zoomIn" alt="Screenshot 3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaf9WhsbsKE7A_2rg1kWys91jmZ3UGLYPgPg&s" 
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transform transition duration-300 animate__animated animate__zoomIn" alt="Screenshot 4">
     </div>
   </section>
 
-  <!-- Sinopse -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-4">Sinopse</h2>
-    <p class="text-gray-400 leading-relaxed">
-        Heathes é um musical de comédia sombria onde conta a história de Veronica Sawyer, uma adolecente que resolve se juntar ao grupo das populares Heathers, Heather Chandler, Heather Duke e Heather McNamara que resolveram a manter por perto graças ao seu talento para falsificação de assinaturas. Tudo parece estar indo bem para Veronica até ela conhecer Jason Dean (JD) e juntos sem querer, após certos acontecimentos acabam matando Heather Chandler e ele a convence a usar seu dom para fingir o suicidio da garota, mas acaba com todos da escola entrando em crise pois, se até a garota mais perfeita fez isso, quem somos nós?
-    </p>
-  </section>
+  <!-- Personagens -->
+  <section class="px-6 py-10 max-w-6xl mx-auto animate__animated animate__fadeInUp">
+    <h2 class="text-2xl font-bold mb-6 text-yellow-400">Personagens Principais</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition duration-300 animate__animated animate__zoomIn">
+        <img src="https://gcdn.thunderstore.io/live/repository/icons/Daviza-Link_OoT-1.0.0.png.256x256_q95.png" 
+             class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2" alt="Link">
+        <p class="font-semibold mt-2 text-center">Link</p>
+        <p class="text-gray-400 text-sm text-center">Herói de Hyrule</p>
+      </div>
 
- 
-  <!-- Elenco Principal -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-6">Elenco Principal</h2>
-    <div class="grid md:grid-cols-4 gap-6">
-      <div class="atores">
-        <img src="https://i.pinimg.com/736x/4a/5e/ce/4a5ece037b4153a1ffa87c5cdfdeb61c.jpg" class="ator">
-        <p class="font-semibold">Barrett Wilbert Weed</p>
-        <p class="text-gray-400 text-sm">Veronica Sawyer</p> 
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition duration-300 animate__animated animate__zoomIn">
+        <img src="https://www.geekcore.co.uk/cdn/shop/files/the-legend-of-zelda-ocarina-of-time-canvas-art-816760_grande.jpg?v=1718118541" 
+             class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2" alt="Princesa Zelda">
+        <p class="font-semibold mt-2 text-center">Princesa Zelda</p>
+        <p class="text-gray-400 text-sm text-center">Princesa de Hyrule</p>
       </div>
-      <div class="atores">
-        <img src="https://i.pinimg.com/564x/c3/fa/0b/c3fa0bcce566f82b72b849cfcb2e7c07.jpg" class="ator">
-        <p class="font-semibold">Ryan McCartan</p>
-        <p class="text-gray-400 text-sm">Jason "J.D." Deanr</p>
+
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition duration-300 animate__animated animate__zoomIn">
+        <img src="https://i.pinimg.com/736x/c1/f4/9d/c1f49d9c75079547213f22c31595f8e7.jpg" 
+             class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2" alt="Ganondorf">
+        <p class="font-semibold mt-2 text-center">Ganondorf</p>
+        <p class="text-gray-400 text-sm text-center">Antagonista</p>
       </div>
-      <div class="atores">
-        <img src="https://i.pinimg.com/736x/a1/01/59/a101590ed38c16439f6eaf437728a153.jpg" class="ator">
-        <p class="font-semibold">Jessica Keenan Wynn</p>
-        <p class="text-gray-400 text-sm">Heather Chandler</p> 
+
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition duration-300 animate__animated animate__zoomIn">
+        <img src="https://freepngimg.com/save/webp/92874-art-navi-of-zelda-wing-time-ocarina" 
+             class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2" alt="Navi">
+        <p class="font-semibold mt-2 text-center">Navi a fada</p>
+        <p class="text-gray-400 text-sm text-center">Fada Guia de Link</p>
       </div>
-      <div class="atores">
-        <img src="https://i.pinimg.com/236x/36/8c/c5/368cc5936621a0e48652b2e5d1167f21.jpg" class="ator">
-        <p class="font-semibold">Alice Lee</p>
-        <p class="text-gray-400 text-sm">Heather Duke</p>
-      </div>
-        <div class="atores">
-        <img src="https://i.pinimg.com/474x/a5/3d/a5/a53da5d9f59e186f3c523b76a581132a.jpg" class="ator">
-        <p class="font-semibold">Elle McLemore</p>
-        <p class="text-gray-400 text-sm">Heather McNamara</p>
-      </div>
-        <div class="atores">
-        <img src="https://d1m9vqlvl3fy94.cloudfront.net/role/attachment/548895/default_5818120200702_222831.jpg" class="ator">
-        <p class="font-semibold">Katie Ladner</p>
-        <p class="text-gray-400 text-sm">Martha "Dumptruck" Dunnstock</p>
-      </div>
-      <div class="atores">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCek9aiFdufReWy2rdu05ax7PqXW3s4lddA&s" class="ator">
-        <p class="font-semibold">Evan Todd</p>
-        <p class="text-gray-400 text-sm">Kurt Kelly</p>
-      </div>
-      <div class="atores">
-        <img src="https://pm1.aminoapps.com/7073/b73e477c04afe607f7edebf3a8ea4bb3e56c185cr1-183-275v2_00.jpg" class="ator">
-        <p class="font-semibold">Jon Edison</p>
-        <p class="text-gray-400 text-sm">Ram Sweeney</p>
-      </div>
+
     </div>
   </section>
 
-  <!-- Onde Assistir -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-4">Onde Assistir</h2>
-    <div class="flex flex-wrap gap-4">
-      <a href="https://www.youtube.com/watch?v=WrKZavh6gDY&t=303s" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">YouTube</a>
-    </div>
-  </section>
-
-  <!-- Rodapé -->
-  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center">
-    © 2025 Musical. Todos os direitos reservados.
+  <!-- Footer -->
+  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center animate__animated animate__fadeInUp">
+    © 2025 INFO-FAVJOGOS. Todos os direitos reservados.
   </footer>
+
 </body>
 </html>

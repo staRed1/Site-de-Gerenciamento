@@ -6,88 +6,84 @@
   <title>Lies of P - Detalhes</title>
   <link rel="icon" type="image/png" href="./images/Logo.jpg">
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bg-[#0f0f16] text-white font-sans">
 
   <!-- Navbar -->
-  <header class="flex items-center justify-between px-6 py-4 bg-[#1f1f1f] border-b border-gray-800">
+  <header class="flex items-center justify-between px-6 py-4 bg-[#1f1f1f] border-b border-gray-800 animate__animated animate__fadeInDown">
     <a href="index.html">
-      <img src="./images/Logo.jpg" alt="Logo do site" class="w-32 h-auto">
+        <img src="./images/image.png" alt="Logo do site" class="w-16 sm:w-20 md:w-32 h-auto rounded-full shadow-lg hover:scale-110 transition-transform duration-300">
     </a>
     <nav class="hidden md:flex gap-6 text-gray-300">
-      <a href="index.html" class="hover:text-orange-500">Home</a>
-      <a href="#" class="hover:text-orange-500">Jogos</a>
-      <a href="#" class="hover:text-orange-500">Sobre</a>
-      <a href="#" class="hover:text-orange-500">Contato</a>
+      <a href="index.html" class="hover:text-orange-500 transition-colors">Home</a>
+      <a href="#" class="hover:text-orange-500 transition-colors">Jogos</a>
+      <a href="#" class="hover:text-orange-500 transition-colors">Sobre</a>
+      <a href="#" class="hover:text-orange-500 transition-colors">Contato</a>
     </nav>
   </header>
 
   <!-- Capa e descrição -->
   <section class="px-6 py-10 max-w-6xl mx-auto grid md:grid-cols-3 gap-8 items-center">
     <img src="https://image.api.playstation.com/vulcan/ap/rnd/202305/2308/06b354c8015b3c71e54f43aa883aab4641285d4a91734681.png" 
-         alt="Lies of P" class="rounded-xl shadow-lg w-full h-80 object-contain bg-gray-800 p-2">
-    <div class="md:col-span-2 flex flex-col justify-between">
+         alt="Lies of P" class="rounded-xl shadow-lg w-full h-80 object-contain bg-gray-800 p-2 animate__animated animate__zoomIn">
+    <div class="md:col-span-2 flex flex-col justify-between animate__animated animate__fadeInRight">
       <h1 class="text-4xl font-bold mb-4 text-orange-500">Lies of P</h1>
       <p class="text-gray-400 text-lg mb-6">
         "Lies of P" é um jogo soulslike ambientado em uma cidade sombria inspirada no conto de Pinóquio. Você controla P, uma marionete mecânica, em busca de Geppetto, enfrentando monstros e escolhas morais que moldam a narrativa.
       </p>
-      
     </div>
   </section>
 
-  <!-- Galeria de imagens -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
+  <!-- Galeria -->
+  <section class="px-6 py-10 max-w-6xl mx-auto animate__animated animate__fadeInUp">
     <h2 class="text-2xl font-bold mb-6 text-orange-500">Galeria</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1vVIlrzYvhKTDUBfXLJ4v_tg0Eu5tc0gkMw&s" 
-           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2">
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transition-transform duration-300">
       <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/ss_b510d9d65802c3cc776d1296c3daa1e9a79e3615.1920x1080.jpg?t=1754552654" 
-           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2">
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transition-transform duration-300">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFHwRei_wt4Cp-pOjSIMYh2eQ0JR7ma3AQw&s" 
-           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2">
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transition-transform duration-300">
       <img src="https://d5gag3xtge2og.cloudfront.net/producao/33602503/G/3905098_liesofp.jpeg" 
-           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2">
+           class="w-full h-48 object-contain rounded-lg bg-gray-800 p-2 hover:scale-105 transition-transform duration-300">
     </div>
   </section>
 
   <!-- Personagens -->
-  <section class="px-6 py-10 max-w-6xl mx-auto">
+  <section class="px-6 py-10 max-w-6xl mx-auto animate__animated animate__fadeIn">
     <h2 class="text-2xl font-bold mb-6 text-orange-500">Personagens Principais</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-      
-      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300">
         <img src="https://preview.redd.it/what-would-carlo-collodi-think-of-lies-of-p-v0-gpiscr6nlc1e1.jpeg?auto=webp&s=553dad2d4c1e50aeb2dc9e03463d3b2f5b85c445" 
              class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">P (Pinóquio)</p>
         <p class="text-gray-400 text-sm text-center">Protagonista</p>
       </div>
-
-      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300">
         <img src="https://i.pinimg.com/736x/3a/e7/a7/3ae7a7e40e41c6518028886f3a53ba14.jpg" 
              class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">Geppetto</p>
-        <p class="text-gray-400 text-sm text-center">Criador de Titeres e Criador de P</p>
+        <p class="text-gray-400 text-sm text-center">Criador</p>
       </div>
-
-      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300">
         <img src="https://images.steamusercontent.com/ugc/2101547966880605535/36CB37C09A73184F1BDC308092AE78224B4E4B78/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" 
              class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
         <p class="font-semibold mt-2 text-center">Sophia Monad</p>
-        <p class="text-gray-400 text-sm text-center">Guia</p>
+        <p class="text-gray-400 text-sm text-center">A Fada Azul</p>
       </div>
-
-      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <div class="bg-gray-900 rounded-xl p-4 flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxgFfc3Dlle2W01Hq-8Qu99XrUdyR_iZkuUw&s" 
              class="w-32 h-32 object-contain rounded-full bg-gray-800 p-2">
-        <p class="font-semibold mt-2 text-center">Rei dos Titeres</p>
+        <p class="font-semibold mt-2 text-center">Rei dos Títeres</p>
         <p class="text-gray-400 text-sm text-center">Lider dos Titeres</p>
       </div>
-
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center">
+  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center animate__animated animate__fadeInUp">
     © 2025 INFO-FAVJOGOS. Todos os direitos reservados.
   </footer>
 
